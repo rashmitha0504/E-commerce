@@ -81,7 +81,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 4px;
     background-color: #e0ddc4fe;
     box-shadow: 0 5px 15px rgba(203, 171, 198, 0.06);
     z-index:999;
@@ -90,8 +90,8 @@ body{
     left: 0;
 }
 .logo{
-    height:120px;
-    width:120px;
+    height:60px;
+    width:60px;
 }
 .cart{
     height:30px;
@@ -883,7 +883,7 @@ footer .copyright{
     }
 
 }
-@media(max-width:799px){
+@media(max-width:769px){
     .section-p1{
         padding: 40px 80px;
     }
@@ -1125,3 +1125,22 @@ footer .copyright{
         min-width: 100%;
     }
 }
+
+@media screen and (min-width: 1024px) and (min-height: 600px) {
+    /* Your CSS styles for screens with a minimum width of 1024px and a minimum height of 600px go here */
+    #sm-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #sm-banner .banner-box{
+        
+        width:100%;
+        height:50vh;
+        background-position: center;
+        background-size: cover;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+  }
+  
